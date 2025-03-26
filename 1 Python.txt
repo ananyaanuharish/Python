@@ -1,0 +1,170 @@
+1.python history--1991 by MONTHY PYTHON
+2.IDE
+
+A. Intro to Python:
+
+1. it is programming language
+2. its interpreted--executed line by line
+3. simple
+4. object oriented
+5. open source
+6. easy to learn
+7. dynamically typed- no need of variable declaration
+8. dB connectivity
+9. community support
+10. cross-platform
+11. wide collection of libraries.
+
+B. Application Areas:
+
+1. Data Science
+2. Machine Learning
+3. Web development
+4. Image processing
+5. IOT
+6. GUI
+7. Automation
+8. Robotics
+9. Game development
+
+C. Env setup
+
+D. Comments in python
+E. Variables
+
+F. Data types:
+
+1.Numeric
+int, float, complex
+
+2.String
+
+3.Boolean
+
+4.Sequence Types:
+list - [] ordered element, mutable and duplicate allowed
+tuple - () ordered element , immutable and duplicate allowed
+Dictionary - {}
+Set {} -> un ordered collection , unique
+range (start, end, step)
+
+
+Binary types:
+byte -> 0 to 255
+use cases -> file handling network protocols , encoding the text
+
+using b"" notation binary can be created
+
+byte array
+memory view
+
+5. Literal:
+	integer literal
+	Decimal literal
+	Octal Literal
+	Hexadecimal Literal
+	Float Literal
+	Complex Literal
+	String Literal
+	List Literal
+	Tuple Literal
+	Dictionary Literal
+
+
+6. Operators:
+	1.Arithmetic operators
+	2.Comparison Operators
+	3.Assignment Operators
+	4.Logical Operators
+	5.Bitwise Operators
+	6.Membership Operators
+	7.Identity Operators
+
+
+# Arithmetic operators -> +,-,*,/,%,**,//	
+# Comparison operator -> <,>,<=,>=,==,!=
+# Assignment Operators -> +=,-=,*=,/=,%=,**=,//=
+# Bitwise Operators -> &,|,^,~,<<,>> and & 1 1 = 1 otherwise 0
+# in , notin  these 2 are the membership operators
+
+7. Python Control statements:
+	Decision Making stmts:
+
+	1.if stmt
+	2.if else , if..elif..else
+	3.nested if
+	4.match-case
+
+Looping stmts:
+	
+	1.while loop
+	2.for-else 
+	3.break stmt
+	4.continue
+	5.pass stmt
+	6.nested loops
+
+8. python functions:
+
+def functionName(arg):
+ default arguments
+
+9. variable scope:
+local
+global
+non local
+
+10. Built in functions:
+
+1.input and output functions
+2.mathematical functions
+
+11. File Handling:
+
+Mode
+r -> reading the file & file should exists
+w -> write & creating a file
+a -> appending a file
+x ->exclusive creation
+
+
+12. Error(Exception) Handling in python:
+
+try, except, else and finally
+
+# Arithmetic exception
+# Multiple exception handling
+
+13. OOPS -> object oriented programming system:
+
+key concepts of oops
+1. class & object -> A class is a blueprint for creating objects
+                  -> An object is an instance of a class 
+2. Encapsulation  -> the process of bundling data members and functions within a single class
+3. Inheritance    -> a mechanism that allows a class to inherit attributes and methods from another class
+4. Polymorphism   -> allows different objects to be treated as instances of the same class, even if they belong to different class
+5. Abstraction    -> programming concepts that hides complex implementation details while exposing only essential information and functionalities to users
+
+14. Python Multithreading
+python's multithreading allows concurrent execution of tasks, but due to the global interpreter lock its not ideal for gpu bound tasks.
+however its useful for i/o bound tasks like network i/o and database queries
+
+1. when to use multi threading in python?
+a. i/o bound tasks. (eg downloading files. reading/writing from disk, network calls)
+b. GUI applications (to keep IJI responsive while performing backgrounding tasks)
+c. tasks that involving waiting(web scraping, API requests, queries)
+
+2.When not to use multi threading?
+@xCPU-bounds tasks(eg. heavy computations, numerical processing) instead of multi threading use multiprocessing
+
+15. how to avoid the dead lock -> at the same time multiple thread try to perform 
+
+16. Daemon Thread -> it runs in the background and exit automatically when the main thread is completed
+
+17. Executor Thread -> ThreadPoolExecutor
+    instead of manually creating threads, we can use ThreadPoolExecutor to automatic creation
+
+18. Thread Communication using queue.Queue
+
+
+
